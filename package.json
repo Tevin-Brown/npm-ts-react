@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublish": "rm -rf dist && mkdir dist && tsc -p special"
+    "prepublish": "rm -rf dist && mkdir dist && tsc -p npm_package"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,6 +40,6 @@
   "files": [ "dist", "README.md" ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/[YOUR GITHUB DIRECTORY]"
+    "url": "https://github.com/Tevin-Brown/npm-ts-react"
   }
 }
