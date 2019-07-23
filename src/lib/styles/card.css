@@ -1,0 +1,32 @@
+.card{
+	width:40vw;
+	height:40vh;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	display:flex;
+	flex-wrap: wrap;   
+	margin:5px;  
+}
+
+.card div{
+	width:100%;
+	text-align:center;
+	padding:5px;
+}
+
+.card .title{
+	font-size:4em;
+	height:1.75em;
+	line-height: 1.75em;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+.card .body{
+	font-size:2em;
+	line-height: 1.5em;
+}
+.card .footer{
+	border-top: 1px solid black;
+	align-self:flex-end;
+}
